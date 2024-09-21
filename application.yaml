@@ -28,5 +28,8 @@ messaging:
     url: nats://host.docker.internal:4222
     user:
     password:
-
-modules:
+observability:
+    tracing:
+        enable: true
+        type: tempo
+        endpoint: host.docker.internal:4317
