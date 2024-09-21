@@ -1,4 +1,4 @@
-# sample
+# example
 
 Set Go to access private repo(optional)
 

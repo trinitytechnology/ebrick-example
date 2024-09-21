@@ -10,7 +10,7 @@ x-logging: &default-logging
           max_wait_time: 3s
       - regex:
           expression: '^(?P<date>\d{4}-\d{2}-\d{2}) (?P<time>\d{2}:\d{2}:\d{2}.\d{3}) (?P<message>(?s:.*))$$'
-name: sample
+name: example
 version: '3.8'
 
 services:

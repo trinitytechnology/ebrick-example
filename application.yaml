@@ -2,9 +2,9 @@ server:
     port: 8080
 
 service:
-    name: sample
+    name: example
     version: 1.0.0
-    project: sample
+    project: example
 
 env: development
 database:
@@ -30,8 +30,3 @@ messaging:
     password:
 
 modules:
-observability:
-    tracing:
-        enable: true
-        type: tempo
-        endpoint: host.docker.internal:4317

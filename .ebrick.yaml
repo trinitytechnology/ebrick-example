@@ -1,8 +1,9 @@
-name: sample
+name: example
 package: github.com/trinitytechnology/ebrick-example
-modules: []
 database: true
 observability: true
 cache: true
 messaging: true
-version: v0.3.2
+version: v0.3.5
+extModules: []
+intModules: []
